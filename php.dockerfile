@@ -1,5 +1,7 @@
 FROM php:7.4-fpm-alpine
 
+RUN apk update && apk add --no-cache && apk add --update less
+
 RUN touch /var/log/error_log
 
 ADD ./php/www.conf /usr/local/etc/php-fpm.d/www.conf

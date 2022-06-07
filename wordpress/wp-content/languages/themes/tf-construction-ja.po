@@ -1,0 +1,843 @@
+# Translation of Themes - TF Construction in Japanese
+# This file is distributed under the same license as the Themes - TF Construction package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-07 06:02:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - TF Construction\n"
+
+#. Theme Name of the theme
+msgid "TF Construction"
+msgstr "TF Construction"
+
+#: inc/theme-info.php:34
+msgid "Pro Demo"
+msgstr "プロ版のデモ"
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:346
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "このテーマとの最大限の互換性を確保するため、以下のプラグインを最新バージョンに更新する必要があります: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "以下のテーマ推奨プラグインは、現在有効化されていません: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "以下のテーマ必須プラグインは、現在有効化されていません: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "利用可能な更新があります: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "このテーマは以下のプラグインを推奨しています: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "このテーマには以下のプラグインが必要です: %1$s。"
+
+#: inc/theme-info.php:38
+msgid "GO PRO"
+msgstr "PRO 版へ"
+
+#. Template Name of the theme
+msgid "Left Sidebar"
+msgstr "左サイドバー"
+
+#: inc/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "現時点で有効化できるプラグインはありません。"
+
+#: inc/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "有効化するプラグインが選択されていません。何も実行しませんでした。"
+
+#: inc/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "現在更新できるプラグインはありません。"
+
+#: inc/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "インストールするプラグインが選択されていません。何も実行しませんでした。"
+
+#: inc/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "更新"
+
+#: inc/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "プラグイン作者からの更新メッセージ:"
+
+#: inc/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "バージョン"
+
+#: inc/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "インストール・更新・有効化可能なプラグインがありません。"
+
+#: inc/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "利用可能なバージョン:"
+
+#: inc/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "不明"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "利用可能な更新 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "未インストール <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "すべて <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: inc/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s、%2$s"
+
+#: inc/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "更新が推奨されています"
+
+#: inc/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "更新が必要です"
+
+#: inc/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "必要な更新が利用できません"
+
+#: inc/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "有効"
+
+#: inc/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "外部ソース"
+
+#. translators: %s: version number
+#: inc/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/class-tgm-plugin-activation.php:1121
+#: inc/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "と"
+
+#: inc/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "更新が必要です"
+
+#: inc/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "使用中のテーマとの互換性を保つため、このプラグインを更新する必要があります。"
+
+#: inc/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "ヘルプが必要な場合はこのサイトの管理者にお問い合わせください。"
+
+#: inc/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "インストール・更新・有効化可能な必須・推奨プラグインがあります。"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "プラグインを有効化できませんでした。このテーマには上位バージョンの %s が必要です。プラグインを更新してください。"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "操作を実行しませんでした。プラグイン %1$s はすでに有効です。"
+
+#: inc/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "プラグインの有効化を開始"
+
+#: inc/class-tgm-plugin-activation.php:386
+#: inc/class-tgm-plugin-activation.php:827
+#: inc/class-tgm-plugin-activation.php:2533
+#: inc/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "ダッシュボードに戻る"
+
+#: inc/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "すべてのインストールが完了しました。"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "%1$s のインストールに失敗しました。"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "<strong>%2$s</strong>%1$s のインストール中にエラーが発生しました。"
+
+#: inc/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "更新プロセスを開始しています。サーバーによっては少し時間がかかるかもしれません。しばらくお待ちください。"
+
+#: inc/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "すべてのインストールと有効化が完了しました。"
+
+#. translators: 1: plugin name.
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "詳細を非表示"
+
+#. translators: 1: plugin name.
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "詳細を表示"
+
+#: inc/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "インストールと有効化プロセスを開始しています。サーバーによっては少し時間がかかるかもしれません。しばらくお待ちください。"
+
+#: inc/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "プラグインの有効化に失敗しました。"
+
+#: inc/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "有効化"
+
+#: inc/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "インストール"
+
+#: inc/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "タイプ"
+
+#: inc/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "プラグイン"
+
+#: inc/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "推奨"
+
+#: inc/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "必須"
+
+#: inc/class-tgm-plugin-activation.php:388
+#: inc/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "以下のプラグインを有効化しました:"
+
+#: inc/class-tgm-plugin-activation.php:387
+#: inc/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "プラグインを有効化しました。"
+
+#: inc/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "必須プラグインのインストール画面に戻る"
+
+#: inc/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "プラグインのインストールを開始"
+
+#: inc/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "プラグインのインストール"
+
+#: inc/theme-info.php:39
+msgid "Customize"
+msgstr "カスタマイズ"
+
+#: inc/theme-info.php:53
+msgid "Theme Info"
+msgstr "テーマ情報"
+
+#: inc/theme-info.php:36
+msgid "Theme Page"
+msgstr "テーマページ"
+
+#: inc/theme-info.php:30
+msgid "Theme Links"
+msgstr "テーマリンク"
+
+#: inc/theme-info.php:53
+msgid "Welcome to %1$s %2$s"
+msgstr "ようこそ %1$s %2$s"
+
+#: inc/themefarmer-customizer.php:36
+msgid "Info Page"
+msgstr "情報ページ"
+
+#: inc/themefarmer-customizer.php:37
+msgid "See Theme Info"
+msgstr "テーマ情報を表示"
+
+#: inc/theme-info.php:35
+msgid "Theme Documentation"
+msgstr "テーマドキュメンテーション"
+
+#: inc/theme-info.php:33
+msgid "Theme Demo"
+msgstr "テーマデモ"
+
+#: inc/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "ソース"
+
+#: inc/theme-info.php:25
+msgid "Welcome to"
+msgstr "ようこそ"
+
+#: inc/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "更新するプラグインが選択されていません。何も実行しませんでした。"
+
+#: inc/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "未インストール"
+
+#: inc/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "プラグインの更新を開始"
+
+#: inc/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "プラグイン API で問題が発生しました。"
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "プラグインをインストール中: %s"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s のインストールと有効化が完了しました。"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr "%1$s のインストールを完了しました。"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr "%2$s 有効化"
+
+#. translators: 1: dashboard link.
+#: inc/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "すべてのプラグインをインストールし、有効化しました。%1$s"
+
+#: inc/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "この通知を非表示"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr "%2$s インストール"
+
+#: inc/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "必須プラグインをインストール"
+
+#: inc/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "インストール済み、停止中"
+
+#: inc/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "インストール済みバージョン:"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグイン %1$s をインストール中 (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s プラグインをインストール、有効化中 (%2$d/%3$d)"
+
+#: inc/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "最低必須バージョン:"
+
+#: inc/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "現在インストールできるプラグインはありません。"
+
+#: inc/class-tgm-plugin-activation.php:934
+#: inc/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "プラグイン開発者に連絡し、WordPress のガイドラインに従ってプラグインをパッケージ化するように依頼してください。"
+
+#: inc/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "パッケージ化済み"
+
+#: inc/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "ステータス"
+
+#: inc/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "リモートプラグインパッケージは複数のファイルで構成されていますが、ファイルが1つのフォルダー内にパッケージされていません。"
+
+#: inc/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "リモートプラグインパッケージには指定されたスラッグのフォルダーがないため、名前の変更ができませんでした。"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "未有効化 <span class=\"count\">(%s)</span>"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr "%2$s 更新"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s プラグインを更新中 (%2$d/%3$d)"
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr "プラグインの更新中: %s"
+
+#: inc/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "WordPress リポジトリ"
+
+#: inc/themefarmer-customizer.php:444
+msgid "Latest Blog Options"
+msgstr "最新ブログ設定"
+
+#: inc/themefarmer-customizer.php:352
+msgid "Services Options"
+msgstr "サービス設定"
+
+#: inc/themefarmer-customizer.php:297
+msgid "Hide Projects "
+msgstr "プロジェクトを非表示"
+
+#: inc/themefarmer-customizer.php:279
+msgid "Project Options"
+msgstr "プロジェクト設定"
+
+#: inc/themefarmer-customizer.php:168
+msgid "Slider Options"
+msgstr "スライダー設定"
+
+#: inc/themefarmer-customizer.php:268 inc/themefarmer-customizer.php:644
+msgid "Select Form"
+msgstr "フォームを選択"
+
+#: inc/themefarmer-customizer.php:484
+msgid "Callout Options"
+msgstr "コールアウト設定"
+
+#: inc/themefarmer-customizer.php:318
+msgid "Project Section Description"
+msgstr "プロジェクトセクションの説明"
+
+#: inc/themefarmer-customizer.php:302
+msgid "Project Section Heading"
+msgstr "プロジェクトセクションの見出し"
+
+#: inc/themefarmer-customizer.php:246
+msgid "Get A Quote"
+msgstr "見積もりをする"
+
+#: inc/themefarmer-customizer.php:257
+msgid "Form Heading"
+msgstr "フォーム見出し"
+
+#: inc/themefarmer-customizer.php:240
+msgid "Contact Form Options"
+msgstr "お問合せフォーム設定"
+
+#: inc/themefarmer-customizer.php:534
+msgid "View Details"
+msgstr "詳細を表示"
+
+#: inc/themefarmer-customizer.php:400
+msgid "Service %s Icon"
+msgstr "サービス %s アイコン"
+
+#: inc/themefarmer-customizer.php:414
+msgid "Service %s Page"
+msgstr "サービス %s ページ"
+
+#: inc/themefarmer-customizer.php:199
+msgid "Slide %s Page"
+msgstr "スライド %s ページ"
+
+#: inc/themefarmer-customizer.php:529
+msgid "Callout Button URL"
+msgstr "コールアウトボタン URL"
+
+#: inc/themefarmer-customizer.php:544
+msgid "Callout Button Text"
+msgstr "コールアウトボタンのテキスト"
+
+#: inc/themefarmer-customizer.php:506
+msgid "Callout Description Text"
+msgstr "コールアウト説明テキスト"
+
+#. Template Name of the theme
+msgid "Home Page"
+msgstr "ホームページ"
+
+#: inc/themefarmer-customizer.php:233
+msgid "Button Link"
+msgstr "ボタンリンク"
+
+#: inc/themefarmer-customizer.php:218 inc/themefarmer-customizer.php:313
+#: inc/themefarmer-customizer.php:329
+msgid "Button Text"
+msgstr "ボタンテキスト"
+
+#: inc/themefarmer-customizer.php:593
+msgid "Select Page"
+msgstr "ページを選択"
+
+#: footer.php:47
+msgid "https://wordpress.org/"
+msgstr "https://ja.wordpress.org/"
+
+#: inc/themefarmer-walker.php:124
+msgid "Home"
+msgstr "ホーム"
+
+#: functions.php:54
+msgid "Primary"
+msgstr "メイン"
+
+#: comments.php:11
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#. Template Name of the theme
+msgid "Full Width"
+msgstr "全幅"
+
+#: inc/themefarmer-functions.php:73
+msgid "Reply"
+msgstr "返信"
+
+#: inc/themefarmer-functions.php:94
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは承認待ちです。"
+
+#: inc/themefarmer-customizer.php:369
+msgid "Title Text"
+msgstr "タイトルテキスト"
+
+#: functions.php:108 sidebar.php:10
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: footer.php:17 functions.php:118
+msgid "Footer Widget Area"
+msgstr "フッターウィジェットエリア"
+
+#: inc/template-tags.php:24
+msgid "% Comments"
+msgstr "%件のコメント"
+
+#: comments.php:7 inc/template-tags.php:24
+msgid "1 Comment"
+msgstr "1件のコメント"
+
+#: header.php:18
+msgid "Skip to content"
+msgstr "コンテンツへスキップ"
+
+#: footer.php:47
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#: template-parts/content-none.php:30
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: inc/themefarmer-customizer.php:147
+msgid "Email"
+msgstr "メール"
+
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#: inc/template-tags.php:35 template-parts/content-page.php:44
+msgid "Edit %s"
+msgstr "編集 %s"
+
+#: 404.php:19
+msgid "ERROR"
+msgstr "エラー"
+
+#: 404.php:22
+msgid "Go back to homepage"
+msgstr "ホームページに戻る"
+
+#: 404.php:20
+msgid "Page cannot be found"
+msgstr "ページが見つかりませんでした"
+
+#: footer.php:49
+msgid "Theme by %1$s."
+msgstr "Theme by %1$s."
+
+#: footer.php:33
+msgid "Calendar"
+msgstr "カレンダー"
+
+#: footer.php:19 functions.php:120
+msgid "footer widget area"
+msgstr "フッターウィジェットエリア"
+
+#: comments.php:15
+msgid "Next Comments"
+msgstr "次のコメント"
+
+#: comments.php:13
+msgid "Previous Comments"
+msgstr "前のコメント"
+
+#: inc/template-tags.php:24
+msgid "0 comment"
+msgstr "0件のコメント"
+
+#: inc/themefarmer-customizer.php:666
+msgid "VIEW PRO VERSION "
+msgstr "プロバージョンを表示"
+
+#: inc/themefarmer-customizer.php:6
+msgid "Theme Setup Info"
+msgstr "テーマセットアップ情報"
+
+#: inc/themefarmer-customizer.php:20
+msgid "Home Page Setup"
+msgstr "ホームページのセットアップ"
+
+#: inc/themefarmer-customizer.php:384
+msgid "Description Text"
+msgstr "説明テキスト"
+
+#: inc/themefarmer-customizer.php:373
+msgid "Service description text"
+msgstr "サービス説明テキスト"
+
+#: inc/themefarmer-customizer.php:186
+msgid "Hide Slider "
+msgstr "スライダーを非表示"
+
+#: inc/themefarmer-functions.php:57
+msgid "Message"
+msgstr "メッセージ"
+
+#: inc/themefarmer-functions.php:57
+msgid "COMMENT"
+msgstr "コメント"
+
+#: inc/themefarmer-functions.php:50
+msgid "WEBSITE"
+msgstr "ウェブサイト"
+
+#: inc/themefarmer-functions.php:49
+msgid "Your Email Address"
+msgstr "メールアドレス"
+
+#: inc/themefarmer-functions.php:49
+msgid "EMAIL"
+msgstr "メール"
+
+#: inc/themefarmer-functions.php:48
+msgid "NAME"
+msgstr "名前"
+
+#: inc/themefarmer-customizer.php:476 inc/themefarmer-customizer.php:516
+msgid "Description"
+msgstr "説明"
+
+#: inc/themefarmer-customizer.php:461 inc/themefarmer-customizer.php:501
+msgid "Heading"
+msgstr "見出し"
+
+#: inc/themefarmer-customizer.php:451
+msgid "Our Blogs"
+msgstr "私たちのブログ"
+
+#: template-parts/content-home.php:43 template-parts/content-index.php:43
+#: template-parts/content-search.php:45 template-parts/content.php:59
+msgid "READ MORE"
+msgstr "続きを読む"
+
+#: inc/themefarmer-customizer.php:134
+msgid "Linkedin Page URL"
+msgstr "Linkedin URL"
+
+#: inc/themefarmer-customizer.php:121
+msgid "Twitter Page URL"
+msgstr "Twitter URL"
+
+#: inc/themefarmer-customizer.php:107
+msgid "Youtube Page URL"
+msgstr "Youtube URL"
+
+#: inc/themefarmer-customizer.php:93
+msgid "Google Page URL"
+msgstr "Google URL"
+
+#: inc/themefarmer-customizer.php:79
+msgid "Facebook Page URL"
+msgstr "Facebook ページ URL"
+
+#: comments.php:7
+msgid "No Comments"
+msgstr "コメントはまだありません"
+
+#: inc/themefarmer-functions.php:60
+msgid "SUBMIT COMMENT"
+msgstr "コメントを送信"
+
+#: inc/themefarmer-customizer.php:358
+msgid "Service Heading Text"
+msgstr "サービス見出しテキスト"
+
+#: functions.php:110 sidebar.php:12
+msgid "Sidebar Widget Area"
+msgstr "サイドバーウィジェットエリア"
+
+#: search.php:20
+msgid "Search Results for: %s"
+msgstr "「%s」の検索結果"
+
+#: inc/themefarmer-functions.php:61
+msgid "Post Your Comment Here"
+msgstr "ここにコメントを投稿"
+
+#: inc/themefarmer-customizer.php:64
+msgid "Open social links in new tab"
+msgstr "新しいタブでソーシャルリンクを開く"
+
+#. translators: %s: Name of current post.
+#. translators: %s: Name of current post.
+#. translators: %s: Name of current post.
+#: template-parts/content-page.php:27 template-parts/content-single.php:40
+#: template-parts/content.php:47
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%s 続きを読む <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/themefarmer-functions.php:48
+msgid "Full Name"
+msgstr "お名前"
+
+#: 404.php:26
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "ここには何も見つかりませんでした。以下のリンクまたは検索をお試しください。"
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "何も見つかりませんでした"
+
+#: template-parts/content-page.php:32 template-parts/content-single.php:45
+#: template-parts/content.php:52
+msgid "Pages:"
+msgstr "固定ページ:"
+
+#: inc/themefarmer-customizer.php:160
+msgid "Phone"
+msgstr "電話"
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿を公開する準備はできましたか ? <a href=\"%1$s\">ここから始めましょう</a>。"
+
+#: searchform.php:4
+msgid "Search for:"
+msgstr "検索対象:"
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "検索キーワードに一致するものが見つかりませんでした。 別のキーワードで試してみてください。"
+
+#: inc/themefarmer-functions.php:50
+msgid "Website"
+msgstr "サイト"
+
+#: inc/themefarmer-functions.php:88
+msgid "at"
+msgstr "@"
+
+#: searchform.php:5
+msgid "What do you want to find?"
+msgstr "何をお探しですか ?"
+
+#: inc/themefarmer-customizer.php:46
+msgid "Social & Contacts Options"
+msgstr "ソーシャルとお問い合わせ設定"
+
+#. Author of the theme
+msgid "Theme Farmer"
+msgstr "Theme Farmer"
+
+#. Theme URI of the theme
+msgid "https://themefarmer.com/free-themes/tf-construction-wordpress-theme/"
+msgstr "https://themefarmer.com/free-themes/tf-construction-wordpress-theme/"
+
+#. Author URI of the theme
+msgid "https://themefarmer.com"
+msgstr "https://themefarmer.com"
