@@ -32,6 +32,17 @@ volumes:
   - ./mysql:/var/lib/mysql
 ```
 
+sudo mount /dev/xvdb ./data
+
+sudo vi /lib/systemd/system/docker.service
+ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock -g /srv/data/docker
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+ps -ef | grep docker
+
+sudo docker-compose stop
+sudo docker-compose start
+
 ## scripts to login nginx
 
 ```
@@ -42,5 +53,7 @@ https://www.kthksgy.com/linux/alpine-certbot/
 apk update && apk add certbot
 pip install certbot-nginx
 certbot --nginx
+
+
 
 ```
