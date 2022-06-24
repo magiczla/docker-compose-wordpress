@@ -1,6 +1,6 @@
 # docker-compose-wordpress
-A simplified yet refined Docker Compose workflow that sets up a LEMP network of containers for local WordPress development. If you'd like more interactive info, there's a [video tutorial](https://www.youtube.com/watch?v=kIqWxjDj4IU) that walk you through setup and usage of this environment.
 
+A simplified yet refined Docker Compose workflow that sets up a LEMP network of containers for local WordPress development. If you'd like more interactive info, there's a [video tutorial](https://www.youtube.com/watch?v=kIqWxjDj4IU) that walk you through setup and usage of this environment.
 
 ## Usage
 
@@ -30,4 +30,17 @@ By default, whenever you bring down the Docker network, your MySQL data will be 
 ```
 volumes:
   - ./mysql:/var/lib/mysql
+```
+
+## scripts to login nginx
+
+```
+sudo docker exec -it nginx /bin/sh
+certbot --authenticator standalone --installer nginx -d tuweii.com
+
+https://www.kthksgy.com/linux/alpine-certbot/
+apk update && apk add certbot
+pip install certbot-nginx
+certbot --nginx
+
 ```
