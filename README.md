@@ -40,6 +40,7 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 ps -ef | grep docker
 
+sudo docker-compose build
 sudo docker-compose stop
 sudo docker-compose start
 
