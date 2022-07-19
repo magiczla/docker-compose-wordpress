@@ -32,6 +32,11 @@ volumes:
   - ./mysql:/var/lib/mysql
 ```
 
+## log into server
+
+ssh -i tuweii.wordpress.key.pem ubuntu@tuweii.com
+cd /srv/data/work/docker-compose-wordpress
+
 sudo mount /dev/xvdb ./data
 
 sudo vi /lib/systemd/system/docker.service
