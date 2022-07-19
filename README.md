@@ -52,9 +52,74 @@ certbot --authenticator standalone --installer nginx -d tuweii.com
 
 https://www.kthksgy.com/linux/alpine-certbot/
 apk update && apk add certbot
+apk add python3 python3-dev py3-pip build-base libressl-dev musl-dev libffi-dev rust cargo
 pip install certbot-nginx
 certbot --nginx
 
-
+cert renew: https://certbot.org/renewal-setup
+SLEEPTIME=$(awk 'BEGIN{srand(); print int(rand()*(3600+1))}'); echo "0 0,12 * * * root sleep $SLEEPTIME && certbot renew -q" | tee -a /etc/crontab > /dev/null
 
 ```
+
+/ # certbot --nginx
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+Enter email address (used for urgent renewal and security notices)
+(Enter 'c' to cancel): magiczla@gmail.com
+
+---
+
+Please read the Terms of Service at
+https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf. You must
+agree in order to register with the ACME server. Do you agree?
+
+---
+
+(Y)es/(N)o: Y
+
+---
+
+Would you be willing, once your first certificate is successfully issued, to
+share your email address with the Electronic Frontier Foundation, a founding
+partner of the Let's Encrypt project and the non-profit organization that
+develops Certbot? We'd like to send you email about our work encrypting the web,
+EFF news, campaigns, and ways to support digital freedom.
+
+---
+
+(Y)es/(N)o: Y
+Account registered.
+
+Which names would you like to activate HTTPS for?
+
+---
+
+1: tuweii.com
+
+---
+
+Select the appropriate numbers separated by commas and/or spaces, or leave input
+blank to select all options shown (Enter 'c' to cancel):
+Requesting a certificate for tuweii.com
+
+Successfully received certificate.
+Certificate is saved at: /etc/letsencrypt/live/tuweii.com/fullchain.pem
+Key is saved at: /etc/letsencrypt/live/tuweii.com/privkey.pem
+This certificate expires on 2022-09-22.
+These files will be updated when the certificate renews.
+
+Deploying certificate
+Successfully deployed certificate for tuweii.com to /etc/nginx/conf.d/default.conf
+Congratulations! You have successfully enabled HTTPS on https://tuweii.com
+
+NEXT STEPS:
+
+- The certificate will need to be renewed before it expires. Certbot can automatically renew the certificate in the background, but you may need to take steps to enable that functionality. See https://certbot.org/renewal-setup for instructions.
+
+---
+
+If you like Certbot, please consider supporting our work by:
+
+- Donating to ISRG / Let's Encrypt: https://letsencrypt.org/donate
+- Donating to EFF: https://eff.org/donate-le
+
+---
